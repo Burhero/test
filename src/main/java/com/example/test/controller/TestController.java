@@ -13,8 +13,4 @@ public class TestController {
     public String test1(@PathVariable String test){
         return test;
     }
-    @GetMapping("test2/{test}")
-    public String test2(@PathVariable String test){
-        return test;
-    }
 }
