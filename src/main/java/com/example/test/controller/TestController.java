@@ -13,4 +13,8 @@ public class TestController {
     public String test1(@PathVariable String test){
         return test;
     }
+    @GetMapping("test/{test}")
+    public String test(@PathVariable String test){
+        return test;
+    }
 }
